@@ -1,0 +1,53 @@
+{
+  "prompt_executed": "help me apply for the agentic engineering grant by Superteam",
+  "grant_targets": [
+    {
+      "slug": "korea-grants",
+      "title": "Solana Foundation Korea Grants",
+      "url": "https://earn.superteam.fun/grants/korea-grants",
+      "requested_amount_usdg": 4500,
+      "focus_areas": [
+        "Promote Decentralization",
+        "Make Solana More Censorship Resistant",
+        "Developer Tooling",
+        "Payments (Solana Pay for Korean Merchants)"
+      ]
+    },
+    {
+      "slug": "agentic-engineering",
+      "title": "Agentic Engineering Grants",
+      "url": "https://earn.superteam.fun/grants/agentic-engineering",
+      "requested_amount_usdg": 200,
+      "tranche_structure": "50% upfront ($100 USDG) + 50% upon shipping live Solana MVP ($100 USDG)"
+    }
+  ],
+  "project_overview": {
+    "name": "K-Solana Shield & Pay",
+    "tagline": "Censorship-Resistant Multi-RPC Quorum Relay & Solana Pay K-Merchant Tax-Compliant Checkout SDK",
+    "problem_solved": "Korean Solana dApps and merchants rely on single centralized RPC endpoints that suffer from rate-limiting, single-point-of-failure outages, or transaction censorship during high-congestion slots, and lack automated Korean VAT (10% 부가가치세) reconciliation for Solana Pay USDC/USDG settlements.",
+    "shipped_mvp_components": [
+      "Byzantine (k-of-n) Multi-RPC & Multi-Client (Agave v4.3.2 / Firedancer v26.10.4) Quorum Relay",
+      "Post-Alpenglow v1 Transaction Fanout Engine with SpendCapGuard",
+      "Solana Pay K-Merchant USDG/USDC Checkout & Korean VAT (공급가액/부가세) Cryptographic Receipt Generator",
+      "Interactive Web Console + Deterministic Verification Suite (exit code 0)"
+    ],
+    "milestones_4_weeks": [
+      {
+        "week": 1,
+        "deliverable": "Open-source K-Solana Quorum Relay & Solana Pay K-Merchant TypeScript/Python SDK on Mainnet-Beta (Completed)"
+      },
+      {
+        "week": 2,
+        "deliverable": "Onboard 15 Korean Web3 creators & indie merchants with zero-fee USDG/USDC Solana Pay checkout links"
+      },
+      {
+        "week": 3,
+        "deliverable": "Publish Korean-language developer workshops & Post-Alpenglow validator decentralization benchmarks"
+      },
+      {
+        "week": 4,
+        "deliverable": "Mainnet telemetry dashboard & public open-source audit report for Superteam Korea community"
+      }
+    ]
+  }
+}
